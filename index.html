@@ -91,8 +91,11 @@
     <script>
         function insert(num)
         {
+            console.log("num: " + num) ;
           var numero = document.getElementById('resultado').innerHTML;
+            console.log("numero: " + numero) ;
           document.getElementById('resultado').innerHTML = numero + num;
+            console.log("resultado: " + document.getElementById('resultado').innerHTML) ;
         }
         function clean()
         {
